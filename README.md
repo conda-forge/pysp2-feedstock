@@ -1,11 +1,11 @@
-About pysp2
-===========
+About pysp2-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysp2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/pysp2/
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysp2-feedstock/blob/main/LICENSE.txt)
 
 Summary: A package for analyzing Single Particle Soot Photometer (SP2) data
 
