@@ -19,7 +19,7 @@ well as particle size distributions. Its file format is based off of the standar
 provided by the Atmospheric Community Toolkit which is based around xarray.
 PySP2 is currently used by the Department of Energy Atmospheric Radiation
 Measurment (ARM) Facility in order to process SP2 observations during field
-deployments such as TRACER and SAIL.
+deployments such as TRACER, SAIL, and COURAGE.
 
 
 Current build status
