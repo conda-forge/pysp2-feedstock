@@ -1,5 +1,5 @@
 {% set name = "pysp2" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pysp2-{{ version }}.tar.gz
-  sha256: 03e8828fb97ac5d31dd36815f59d6ad165d75ac4db1edfe0daaff918942fb2c5
+  sha256: 8873fcba3308b499603fc17279d2e1506797a8f854e367882540f640c3e9eaad
 
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
 
 requirements:
   host:
