@@ -1,5 +1,5 @@
 {% set name = "pysp2" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pysp2-{{ version }}.tar.gz
-  sha256: 8873fcba3308b499603fc17279d2e1506797a8f854e367882540f640c3e9eaad
+  sha256: 9c55789f16427b2d17f40a2469eec74e68af179fef8f306e3dea7a8d0e837e1c
 
 
 build:
